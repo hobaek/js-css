@@ -1,0 +1,23 @@
+.introTop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: lightblue;
+}
+
+.intro-text {
+	width: 30%;
+	transition: all 0.5s ease-in-out;
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+.intro-appear {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.empty {
+	height: 100vh;
+}
